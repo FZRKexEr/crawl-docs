@@ -8,6 +8,21 @@ Powered by [crawl4ai](https://github.com/unclecode/crawl4ai).
 
 ## Install
 
+### Via Marketplace (推荐)
+
+```bash
+claude plugin marketplace add FZRKexEr/crawl-docs
+claude plugin install crawl-docs@crawl-docs-marketplace
+```
+
+### Via Git URL
+
+```bash
+claude plugin install https://github.com/FZRKexEr/crawl-docs
+```
+
+### Manual Install
+
 ```bash
 git clone https://github.com/FZRKexEr/crawl-docs.git ~/.claude/plugins/crawl-docs
 ```
@@ -15,6 +30,12 @@ git clone https://github.com/FZRKexEr/crawl-docs.git ~/.claude/plugins/crawl-doc
 First time you run `/crawl`, it will automatically set up a Python venv and install dependencies (including a headless Chromium browser). This takes a few minutes.
 
 ## Update
+
+```bash
+claude plugin update crawl-docs
+```
+
+Or if manually installed:
 
 ```bash
 cd ~/.claude/plugins/crawl-docs && git pull
