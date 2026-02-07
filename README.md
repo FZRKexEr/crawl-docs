@@ -9,7 +9,7 @@ Powered by [crawl4ai](https://github.com/unclecode/crawl4ai).
 ## Install
 
 ```bash
-/plugin install crawl-docs@FZRKexEr/crawl
+git clone https://github.com/FZRKexEr/crawl-docs.git ~/.claude/plugins/crawl-docs
 ```
 
 First time you run `/crawl`, it will automatically set up a Python venv and install dependencies (including a headless Chromium browser). This takes a few minutes.
