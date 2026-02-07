@@ -14,6 +14,12 @@ git clone https://github.com/FZRKexEr/crawl-docs.git ~/.claude/plugins/crawl-doc
 
 First time you run `/crawl`, it will automatically set up a Python venv and install dependencies (including a headless Chromium browser). This takes a few minutes.
 
+## Update
+
+```bash
+cd ~/.claude/plugins/crawl-docs && git pull
+```
+
 ## Usage
 
 ```
