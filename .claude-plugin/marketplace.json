@@ -1,0 +1,21 @@
+{
+  "name": "crawl-docs-marketplace",
+  "owner": {
+    "name": "xinpeng"
+  },
+  "plugins": [
+    {
+      "name": "crawl-docs",
+      "source": "./",
+      "description": "Crawl documentation and wiki sites, save as local markdown files for on-demand reading. Powered by crawl4ai.",
+      "version": "0.1.0",
+      "author": {
+        "name": "xinpeng"
+      },
+      "repository": "https://github.com/FZRKexEr/crawl-docs",
+      "license": "MIT",
+      "keywords": ["crawl", "docs", "documentation", "wiki", "markdown"],
+      "category": "productivity"
+    }
+  ]
+}
