@@ -8,7 +8,7 @@ Powered by [crawl4ai](https://github.com/unclecode/crawl4ai).
 
 ## Install
 
-### Via Marketplace (推荐)
+### Via Marketplace (Recommended)
 
 ```bash
 claude plugin marketplace add FZRKexEr/crawl-docs
