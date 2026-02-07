@@ -1,0 +1,11 @@
+{
+  "name": "crawl-docs",
+  "description": "Crawl documentation and wiki sites, save as local markdown files for on-demand reading. Powered by crawl4ai.",
+  "version": "0.1.0",
+  "author": {
+    "name": "xinpeng"
+  },
+  "repository": "https://github.com/xinpeng/claude-code-crawl",
+  "license": "MIT",
+  "keywords": ["crawl", "docs", "documentation", "wiki", "markdown"]
+}

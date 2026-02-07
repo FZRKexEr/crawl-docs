@@ -1,0 +1,21 @@
+[project]
+name = "crawl-docs"
+version = "0.1.0"
+description = "CLI tool for crawling documentation sites to local markdown"
+requires-python = ">=3.10"
+dependencies = [
+    "crawl4ai",
+]
+
+[project.scripts]
+crawl-docs = "crawl_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["scripts"]
+
+[tool.setuptools.package-dir]
+"" = "scripts"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"

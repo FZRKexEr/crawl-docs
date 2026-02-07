@@ -1,0 +1,6 @@
+.venv/
+.crawl/
+.claude/
+__pycache__/
+*.egg-info/
+uv.lock
